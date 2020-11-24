@@ -27,5 +27,4 @@
  - if you get Requested URL was not found on the server (443), it is caused by the wrapper code. <code> sudo nano /etc/apache2/apache.conf change Override none to Override All under <Virtual Host *80> </code>
  
  
- hello
  
