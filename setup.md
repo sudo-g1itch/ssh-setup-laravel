@@ -12,7 +12,7 @@
 | 6 | Apache Config - 2 | <code> sudo a2ensite laravel_config.conf -> enables | <code> sudo a2dissite default_configuration_file -> disables </code> <code> sudo service apache2 reload -> used in between | 
 | 7 | MySQL | <code> sudo apt-get install mysql-server | Installing MySQL |
 | 8 | Git | <code> sudo apt-get install git | Installing Git so we can clone our real application into the server |
-| 9 | Application Cloning | <code> sudo git clone *://*/*/item_name.git |
+| 9 | Application Cloning | <code> sudo git clone \*://\*/*/item_name.git |
 | 10 | NPM | <code> sudo apt-get install npm |
 | 11 | Vendor & Node_modules to laravel application | <code> sudo composer update && npm install |
 | 12 | .env setup for php | DB credentials |
