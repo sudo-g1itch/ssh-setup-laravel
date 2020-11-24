@@ -25,3 +25,7 @@
 
  - if you get unknown authentication error in laravel application use <code> CREATE  USER 'username'@'localhost' IDENTIFIED WITH mysql_native_password BY 'userpassword'; & if user exist use ALTER instead of CREATE </code>
  - if you get Requested URL was not found on the server (443), it is caused by the wrapper code. <code> sudo nano /etc/apache2/apache.conf change Override none to Override All under <Virtual Host *80> </code>
+ 
+ 
+ hello
+ 
